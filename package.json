@@ -3,22 +3,30 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "expect": "^1.20.2",
+    "express": "^4.15.3",
+    "g": "^2.0.1",
+    "mongodb": "^2.2.27",
+    "mongoose": "^4.10.1",
+    "supertest": "^2.0.1",
+    "validator": "^5.7.0"
+  },
+  "devDependencies": {
+    "mocha": "^3.4.2"
+  },
   "scripts": {
-    "test": "mocha server/**/*.test.js",
-    "test-watch": "nodemon --exec 'npm test'"
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JesusZepeda/node-course-2-todo-api.git"
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "body-parser": "^1.15.2",
-    "express": "^4.14.0",
-    "mongodb": "^2.2.5",
-    "mongoose": "^4.5.9"
+  "bugs": {
+    "url": "https://github.com/JesusZepeda/node-course-2-todo-api/issues"
   },
-  "devDependencies": {
-    "expect": "^1.20.2",
-    "mocha": "^3.0.2",
-    "nodemon": "^1.10.2",
-    "supertest": "^2.0.0"
-  }
+  "homepage": "https://github.com/JesusZepeda/node-course-2-todo-api#readme"
 }
